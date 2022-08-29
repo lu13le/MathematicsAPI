@@ -17,7 +17,7 @@ namespace MathematicsAPI.Controllers
         }
         
         
-        [HttpPost("Add")]
+        [HttpGet("Add")]
         [ProducesResponseType(200)]
         public IActionResult Add(int a, int b)
         {
@@ -26,7 +26,7 @@ namespace MathematicsAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPost("Substract")]
+        [HttpGet("Substract")]
         [ProducesResponseType(200)]
         public IActionResult Substract(int a, int b)
         {
@@ -35,7 +35,7 @@ namespace MathematicsAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPost("Divide")]
+        [HttpGet("Divide")]
         [ProducesResponseType(200)]
         public IActionResult Divide(int a, int b)
         {
@@ -44,7 +44,7 @@ namespace MathematicsAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPost("Multiply")]
+        [HttpGet("Multiply")]
         [ProducesResponseType(200)]
         public IActionResult Multiply(int a, int b)
         {
