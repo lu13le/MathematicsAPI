@@ -20,6 +20,7 @@
            
         }
 
+        //test for multiplying nums
         public double Multiply(double x, double y)
         {
             if (x == 0 || y == 0)
