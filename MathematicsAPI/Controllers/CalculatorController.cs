@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MathematicsAPI.Controllers
 {
+    //Controller
     [Route("api/[controller]")]
     [ApiController]
     public class CalculatorController : Controller
